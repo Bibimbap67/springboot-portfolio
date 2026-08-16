@@ -307,14 +307,17 @@ button {
 }
 
 .hero__photo-img {
-	width: 600px;
+	width: 660px;
 }
-.hero__photo-caption{
-	font-family: var(--font-mono);
-	margin: 10px;
-	color: #400040;
-	
+.hero__photo-caption {
+    font-family: var(--font-mono);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #400040;
 }
+
 .hero__statement {
   margin-top: 28px;
   font-size: 1.1rem;
@@ -404,6 +407,7 @@ button {
 
 .about__photo img {
   margin-top: 80px;
+  width: 50vh;
   object-fit: cover;
   display: block;
 }

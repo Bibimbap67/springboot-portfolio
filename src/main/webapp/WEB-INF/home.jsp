@@ -1,3 +1,4 @@
+
 <%@ include file="fragments/head.jsp" %>
 <%@ include file="fragments/nav.jsp" %>
 
@@ -25,6 +26,10 @@
         <div class="hero__photo">
           <img src="https://i.giphy.com/oQht1Hk7HJ8USa5jrK.webp" alt="Juan Dela Cruz" class="hero__photo-img">   
         </div>
+        <div class="hero__photo-caption">
+			<p>&ldquo;Didn&rsquo;t you learn that studying is important?&rdquo;</p>
+		</div>
+		
       </div>
     </section>
 
