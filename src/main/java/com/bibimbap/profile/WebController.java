@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class WebController {
 
-    @GetMapping({"/home"})
+    @GetMapping({"/","/home"})
     public String home(Model model) {
         model.addAttribute("activePage", "home");
         model.addAttribute("pageTitle", "Mark Panolin — Portfolio");
