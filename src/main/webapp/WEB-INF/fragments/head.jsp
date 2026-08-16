@@ -1,0 +1,21 @@
+<%@ page contentType="text/html;charset=UTF-8" pageEncoding="UTF-8" language="java" %><%
+  String pageTitle = (String) request.getAttribute("pageTitle");
+  if (pageTitle == null) pageTitle = "Portfolio";
+  String pageDescription = (String) request.getAttribute("pageDescription");
+  if (pageDescription == null) {
+    pageDescription = "BS Information Technology student building practical web and app projects.";
+  }
+%><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= pageTitle %></title>
+  <meta name="description" content="<%= pageDescription %>">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/portfolio.css">
+</head>
+<body>
